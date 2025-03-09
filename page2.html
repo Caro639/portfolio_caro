@@ -1,0 +1,1280 @@
+<!DOCTYPE html>
+<html lang="fr">
+  <head>
+    <meta charset="UTF-8" />
+    <meta
+      name="viewport"
+      content="width=device-width, initial-scale=1.0"
+    />
+    <link
+      rel="stylesheet"
+      type="text/css"
+      href="./style.css"
+    />
+    <link
+      rel="stylesheet"
+      type="text/css"
+      href="./style2.css"
+    />
+    <link
+      rel="preconnect"
+      href="https://fonts.googleapis.com"
+    />
+    <link
+      rel="preconnect"
+      href="https://fonts.gstatic.com"
+      crossorigin
+    />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap"
+      rel="stylesheet"
+    />
+    <title>
+      Portfolio Werner Carole Développeuse Web
+    </title>
+    <link
+      rel="icon"
+      type="image/webp"
+      href="/image/favicon_terra.webp"
+    />
+  </head>
+  <body id="page2">
+    <canvas
+      id="nokey"
+      width="800"
+      height="800"
+    ></canvas>
+
+    <!-- menu -->
+    <svg style="display: none">
+      <defs>
+        <g id="home">
+          <path
+            fill="#ad45c6"
+            d="M42,48H6c-3.3,0-6-2.7-6-6V6c0-3.3,2.7-6,6-6h36c3.3,0,6,2.7,6,6v36C48,45.3,45.3,48,42,48z"
+          />
+          <path
+            fill="#212121"
+            d="M20.8,35.5v-9.6h6.4v9.6h8V22.7H40L24,8.3L8,22.7h4.8v12.8H20.8z"
+          />
+        </g>
+
+        <g id="map">
+          <path
+            fill="#ad45c6"
+            d="M16,14.2c-1,0-1.8,0.8-1.8,1.8s0.8,1.8,1.8,1.8c1,0,1.8-0.8,1.8-1.8S17,14.2,16,14.2z M16,0
+          C7.2,0,0,7.2,0,16c0,8.8,7.2,16,16,16s16-7.2,16-16C32,7.2,24.8,0,16,0z M19.5,19.5L6.4,25.6l6.1-13.1l13.1-6.1L19.5,19.5z"
+          />
+        </g>
+
+        <g id="search">
+          <path
+            fill="#ad45c6"
+            d="M22.9,20.1h-1.5l-0.5-0.5c1.8-2.1,2.9-4.8,2.9-7.7C23.8,5.3,18.5,0,11.9,0S0,5.3,0,11.9s5.3,11.9,11.9,11.9
+          c3,0,5.7-1.1,7.7-2.9l0.5,0.5v1.4l9.1,9.1l2.7-2.7L22.9,20.1z M11.9,20.1c-4.5,0-8.2-3.7-8.2-8.2s3.7-8.2,8.2-8.2s8.2,3.7,8.2,8.2
+          S16.4,20.1,11.9,20.1z"
+          />
+        </g>
+        <g id="planner">
+          <path
+            fill="#ad45c6"
+            d="M8,72h56c4.4,0,8-3.6,8-8V8c0-4.4-3.6-8-8-8H8C3.6,0,0,3.6,0,8v56C0,68.4,3.6,72,8,72z"
+          />
+          <path
+            fill="#212121"
+            d="M62,62H51.3V43.8c0-5-1.9-7.8-5.8-7.8c-4.3,0-6.5,2.9-6.5,7.8V62H28.6V27.3h10.3V32c0,0,3.1-5.7,10.5-5.7
+		c7.4,0,12.6,4.5,12.6,13.8V62z M16.3,22.8c-3.5,0-6.3-2.9-6.3-6.4s2.8-6.4,6.3-6.4s6.3,2.9,6.3,6.4S19.9,22.8,16.3,22.8z M11,62
+		h10.7V27.3H11V62z"
+          />
+        </g>
+        <g id="git">
+          <path
+            fill="#ad45c6"
+            d="M512,0C229.1,0,0,229.1,0,512c0,226.6,146.6,417.9,350.1,485.8c25.6,4.5,35.2-10.9,35.2-24.3
+	c0-12.2-0.6-52.5-0.6-95.4c-128.6,23.7-161.9-31.4-172.2-60.2c-5.8-14.7-30.7-60.2-52.5-72.3c-17.9-9.6-43.5-33.3-0.6-33.9
+	c40.3-0.6,69.1,37.1,78.7,52.5c46.1,77.4,119.7,55.7,149.1,42.2c4.5-33.3,17.9-55.7,32.6-68.5c-113.9-12.8-233-57-233-252.8
+	c0-55.7,19.8-101.8,52.5-137.6c-5.1-12.8-23-65.3,5.1-135.7c0,0,42.9-13.4,140.8,52.5c41-11.5,84.5-17.3,128-17.3
+	c43.5,0,87,5.8,128,17.3c97.9-66.6,140.8-52.5,140.8-52.5c28.2,70.4,10.2,122.9,5.1,135.7c32.6,35.8,52.5,81.3,52.5,137.6
+	c0,196.5-119.7,240-233.6,252.8c18.6,16,34.6,46.7,34.6,94.7c0,68.5-0.6,123.5-0.6,140.8c0,13.4,9.6,29.4,35.2,24.3
+	C877.4,929.9,1024,737.9,1024,512C1024,229.1,794.9,0,512,0z"
+          />
+        </g>
+      </defs>
+    </svg>
+
+    <nav class="nav__cont">
+      <ul class="nav">
+        <li class="nav__items">
+          <svg
+            xmlns="http://www.w3.org/2000/svg"
+            viewBox="0 0 48 48"
+          >
+            <use xlink:href="#home"></use>
+          </svg>
+          <a href="./">Accueil</a>
+        </li>
+
+        <li class="nav__items">
+          <svg
+            xmlns="http://www.w3.org/2000/svg"
+            viewBox="0 0 32 32"
+          >
+            <use xlink:href="#map"></use>
+          </svg>
+          <a href="./page2.html">Parcours</a>
+        </li>
+
+        <li class="nav__items">
+          <svg
+            xmlns="http://www.w3.org/2000/svg"
+            viewBox="0 0 32 32"
+          >
+            <use xlink:href="#search"></use>
+          </svg>
+          <a href="./page3.html">Projets</a>
+        </li>
+
+        <li class="nav__items">
+          <svg
+            xmlns="http://www.w3.org/2000/svg"
+            viewBox="0 0 72 72"
+          >
+            <use xlink:href="#planner"></use>
+          </svg>
+          <a href="">Linkedin</a>
+        </li>
+        <li class="nav__items">
+          <svg
+            xmlns="http://www.w3.org/2000/svg"
+            viewBox="0 0 1024 1024"
+          >
+            <use xlink:href="#git"></use>
+          </svg>
+          <a href="">Github</a>
+        </li>
+      </ul>
+    </nav>
+
+    <div class="hero">
+      <h1>Mon parcours dev</h1>
+
+      <div class="hero-text">
+        <p>
+          J&apos;apprends le développement web
+          depuis 2021. J&apos;ai commencé par
+          apprendre à coder en HTML, CSS et le
+          langage PHP. Puis, j&apos;ai appris à
+          utiliser les frameworks tel que React
+          Next.js. Le framework sur lequel
+          j&apos;ai le plus travaillé est Symfony.
+          Je continue d&apos;apprendre chaque jour
+          avec passion et détermination.
+        </p>
+      </div>
+      <div class="container">
+        <a href="#parcours" class="button">
+          <div class="globe"></div>
+          <div class="globe s2"></div>
+          <div class="globe s3"></div>
+          <span>parcours</span>
+          <div class="moon"></div>
+        </a>
+      </div>
+    </div>
+    <img
+      src="./image/terra.webp"
+      alt="la planète terre"
+      class="terra"
+    />
+
+    <!-- section parcours -->
+    <div class="ag-timeline-block">
+      <div class="ag-timeline_title-box">
+        <div
+          class="ag-timeline_title"
+          id="parcours"
+        >
+          WEB DEV
+        </div>
+        <div
+          class="ag-timeline_title"
+          id="titre_timeline"
+        >
+          PARCOURS
+        </div>
+      </div>
+      <section class="ag-section">
+        <div class="ag-format-container">
+          <div class="js-timeline ag-timeline">
+            <div
+              class="js-timeline_line ag-timeline_line"
+            >
+              <div
+                class="js-timeline_line-progress ag-timeline_line-progress"
+              ></div>
+            </div>
+            <div class="ag-timeline_list">
+              <div
+                class="js-timeline_item js-ag-animated ag-timeline_item"
+              >
+                <div
+                  class="ag-timeline-card_item"
+                >
+                  <div
+                    class="ag-timeline-card_inner"
+                  >
+                    <div
+                      class="ag-timeline-card_img-box"
+                    >
+                      <img
+                        src="./image/sitechalet.webp"
+                        class="ag-timeline-card_img"
+                        width="100%"
+                        height="100%"
+                      />
+                    </div>
+                    <div
+                      class="ag-timeline-card_info"
+                    >
+                      <div
+                        class="ag-timeline-card_title"
+                      >
+                        Graphiste Développeuse CMS
+                      </div>
+                      <div
+                        class="ag-timeline-card_desc"
+                      >
+                        Début 2021, lors de ma
+                        formation de graphiste,
+                        j&apos;ai découvert le
+                        métier de développeur web.
+                        Ma curiosité m&apos;a
+                        poussée à découvrir le
+                        langage HTML et CSS.
+                        J&apos;ai créé mon premier
+                        site web en utilisant le
+                        CMS WordPress. Je me suis
+                        prise de passion pour le
+                        développement web. Issue
+                        d&apos;études en Arts
+                        Appliqués et en Design, ce
+                        métier allie la créativité
+                        et le challenge technique.
+                        J&apos;ai trouvé ma voie.
+                        <!-- Lorem
+                        ipsum dolor sit amet,
+                        consectetuer adipiscing
+                        elit. Aenean commodo
+                        ligula eget dolor. Aenean
+                        massa. Cum sociis natoque
+                        penatibus et magnis dis
+                        parturient montes,
+                        nascetur ridiculus mus.
+                        Donec quam felis,
+                        ultricies nec,
+                        pellentesque eu, pretium
+                        quis, sem. Nulla consequat
+                        massa quis enim. Donec
+                        pede justo, fringilla vel,
+                        aliquet nec, vulputate
+                        eget, arcu. -->
+                      </div>
+                    </div>
+                  </div>
+                  <div
+                    class="ag-timeline-card_arrow"
+                  ></div>
+                </div>
+                <div
+                  class="js-timeline-card_point-box ag-timeline-card_point-box"
+                >
+                  <div
+                    class="ag-timeline-card_point"
+                  >
+                    2021
+                  </div>
+                </div>
+                <div
+                  class="ag-timeline-card_meta-box"
+                >
+                  <div
+                    class="ag-timeline-card_meta"
+                  >
+                    Graphiste Développeuse CMS
+                  </div>
+                </div>
+              </div>
+
+              <div
+                class="js-timeline_item js-ag-animated ag-timeline_item"
+              >
+                <div
+                  class="ag-timeline-card_item"
+                >
+                  <div
+                    class="ag-timeline-card_inner"
+                  >
+                    <div
+                      class="ag-timeline-card_img-box"
+                    >
+                      <img
+                        src="./image/chalets_sitewp.webp"
+                        class="ag-timeline-card_img"
+                        width="100%"
+                        height="100%"
+                        alt=""
+                      />
+                    </div>
+                    <div
+                      class="ag-timeline-card_info"
+                    >
+                      <div
+                        class="ag-timeline-card_title"
+                      >
+                        Prep Full Stack
+                      </div>
+                      <div
+                        class="ag-timeline-card_desc"
+                      >
+                        En 2022, j&apos;intègre la
+                        formation Prep Full Stack
+                        chez OpenClassrooms.
+                        J&apos;ai commencé par
+                        créer un site WordPress
+                        professionnel pour une
+                        entreprise fictive de
+                        locations et ventes de
+                        chalets. Ensuite,
+                        j&apos;ai travaillé très
+                        dur pour apprendre le
+                        langage HTML, CSS et PHP.
+                        J&apos;ai réalisé mon
+                        premier projet, un
+                        extranet bancaire conçu
+                        pour les salariés afin de
+                        laisser des avis.
+                        J&apos;ai appris à
+                        utiliser une base de
+                        données MySQL pour stocker
+                        les données et à les
+                        afficher sur une page web.
+                        J&apos;ai appris à
+                        utiliser Git pour gérer
+                        mon code.
+                        <!-- Aenean imperdiet. Etiam
+                        ultricies nisi vel augue.
+                        Curabitur ullamcorper
+                        ultricies nisi. Nam eget
+                        dui. Etiam rhoncus.
+                        Maecenas tempus, tellus
+                        eget condimentum rhoncus,
+                        sem quam semper libero,
+                        sit amet adipiscing sem
+                        neque sed ipsum. Nam quam
+                        nunc, blandit vel, luctus
+                        pulvinar, hendrerit id,
+                        lorem. Maecenas nec odio
+                        et ante tincidunt tempus.
+                        Donec vitae sapien ut
+                        libero venenatis faucibus.
+                        Nullam quis ante. Etiam
+                        sit amet orci eget eros
+                        faucibus tincidunt. Duis
+                        leo. Sed fringilla mauris
+                        sit amet nibh. -->
+                      </div>
+                    </div>
+                  </div>
+                  <div
+                    class="ag-timeline-card_arrow"
+                  ></div>
+                </div>
+                <div
+                  class="js-timeline-card_point-box ag-timeline-card_point-box"
+                >
+                  <div
+                    class="ag-timeline-card_point"
+                  >
+                    2022
+                  </div>
+                </div>
+                <div
+                  class="ag-timeline-card_meta-box"
+                >
+                  <div
+                    class="ag-timeline-card_meta"
+                  >
+                    Prep Full Stack
+                  </div>
+                </div>
+              </div>
+
+              <div
+                class="js-timeline_item js-ag-animated ag-timeline_item"
+              >
+                <div
+                  class="ag-timeline-card_item"
+                >
+                  <div
+                    class="ag-timeline-card_inner"
+                  >
+                    <div
+                      class="ag-timeline-card_img-box"
+                    >
+                      <img
+                        src="./image/quezaquo_accueil.PNG"
+                        class="ag-timeline-card_img"
+                        width="100%"
+                        height="100%"
+                        alt=""
+                      />
+                    </div>
+                    <div
+                      class="ag-timeline-card_info"
+                    >
+                      <div
+                        class="ag-timeline-card_title"
+                      >
+                        Développeur Web et Web
+                        Mobile
+                      </div>
+                      <div
+                        class="ag-timeline-card_desc"
+                      >
+                        En 2023, je commence la
+                        formation de Développeur
+                        Web à l&apos;Afpa afin
+                        d&apos;obtenir le diplôme.
+                        Je réalise une application
+                        web React Next.js.
+                        L&apos;application est
+                        connectée à une API open
+                        source. L&apos;utilisateur
+                        peut rechercher des
+                        informations nutritives.
+                        Suite à Docker, les
+                        requettes SQL et les
+                        schémas de base de données
+                        avec JMerise, je découvre
+                        le framework Symfony. Je
+                        développe une application
+                        qui permet aux
+                        utilisateurs qui ont un
+                        compte client de créer des
+                        recettes, de les partager
+                        à la communauté et de les
+                        noter.
+                        <!-- Cum sociis natoque
+                        penatibus et magnis dis
+                        parturient montes,
+                        nascetur ridiculus mus.
+                        Donec quam felis,
+                        ultricies nec,
+                        pellentesque eu, pretium
+                        quis, sem. Nulla consequat
+                        massa quis enim. Donec
+                        pede justo, fringilla vel,
+                        aliquet nec, vulputate
+                        eget, arcu. In enim justo,
+                        rhoncus ut, imperdiet a,
+                        venenatis vitae, justo.
+                        Nullam dictum felis eu
+                        pede mollis pretium.
+                        Integer tincidunt. Cras
+                        dapibus. Vivamus elementum
+                        semper nisi. -->
+                      </div>
+                    </div>
+                  </div>
+                  <div
+                    class="ag-timeline-card_arrow"
+                  ></div>
+                </div>
+                <div
+                  class="js-timeline-card_point-box ag-timeline-card_point-box"
+                >
+                  <div
+                    class="ag-timeline-card_point"
+                  >
+                    2023
+                  </div>
+                </div>
+                <div
+                  class="ag-timeline-card_meta-box"
+                >
+                  <div
+                    class="ag-timeline-card_meta"
+                  >
+                    Développeur Web et Web Mobile
+                  </div>
+                </div>
+              </div>
+
+              <div
+                class="js-timeline_item js-ag-animated ag-timeline_item"
+              >
+                <div
+                  class="ag-timeline-card_item"
+                >
+                  <div
+                    class="ag-timeline-card_inner"
+                  >
+                    <div
+                      class="ag-timeline-card_img-box"
+                    >
+                      <img
+                        src="./image/ohmypanier.PNG"
+                        class="ag-timeline-card_img"
+                        width="100%"
+                        height="100%"
+                        alt="page panier vide"
+                      />
+                    </div>
+                    <div
+                      class="ag-timeline-card_info"
+                    >
+                      <div
+                        class="ag-timeline-card_title"
+                      >
+                        Stage Développeuse web
+                        Ziben
+                      </div>
+                      <div
+                        class="ag-timeline-card_desc"
+                      >
+                        Je réalise un stage chez
+                        Ziben, agence web
+                        spécialisée en animation
+                        et 3D. L&apos;équipe
+                        m&apos;offre la chance de
+                        travailler sur un projet
+                        réalisé avec le framework
+                        Symfony. Je travaille le
+                        back end du site, un
+                        e-commerce. Le challenge
+                        est de réussir à
+                        implémenter le système de
+                        paiement bancaire ainsi
+                        que la mise en place du
+                        système d&apos;abonnement.
+                        Après avoir créé des
+                        utilisateurs, leurs
+                        différents rôles et des
+                        produits, je développe le
+                        système de panier
+                        d&apos;achat ainsi que
+                        l&apos;enregistrement en
+                        base de données des
+                        commandes validées par un
+                        paiement. Je découvre les
+                        services et je met en
+                        place l'administrarion
+                        grâce au dashboard
+                        EasyAdminBundle.
+                        <!-- Vivamus elementum semper
+                        nisi. Aenean vulputate
+                        eleifend tellus. Aenean
+                        leo ligula, porttitor eu,
+                        consequat vitae, eleifend
+                        ac, enim. Aliquam lorem
+                        ante, dapibus in, viverra
+                        quis, feugiat a, tellus.
+                        Phasellus viverra nulla ut
+                        metus varius laoreet.
+                        Quisque rutrum. Aenean
+                        imperdiet. Etiam ultricies
+                        nisi vel augue. Curabitur
+                        ullamcorper ultricies
+                        nisi. -->
+                      </div>
+                    </div>
+                  </div>
+                  <div
+                    class="ag-timeline-card_arrow"
+                  ></div>
+                </div>
+                <div
+                  class="js-timeline-card_point-box ag-timeline-card_point-box"
+                >
+                  <div
+                    class="ag-timeline-card_point"
+                  >
+                    2023
+                  </div>
+                </div>
+                <div
+                  class="ag-timeline-card_meta-box"
+                >
+                  <div
+                    class="ag-timeline-card_meta"
+                  >
+                    Stage Développeuse web Ziben
+                  </div>
+                </div>
+              </div>
+
+              <div
+                class="js-timeline_item js-ag-animated ag-timeline_item"
+              >
+                <div
+                  class="ag-timeline-card_item"
+                >
+                  <div
+                    class="ag-timeline-card_inner"
+                  >
+                    <div
+                      class="ag-timeline-card_img-box"
+                    >
+                      <img
+                        src="./image/apirecettespubliques.PNG"
+                        class="ag-timeline-card_img"
+                        width="100%"
+                        height="100%"
+                        alt=""
+                      />
+                    </div>
+                    <div
+                      class="ag-timeline-card_info"
+                    >
+                      <div
+                        class="ag-timeline-card_title"
+                      >
+                        Diplôme Développeur Web
+                        obtenu
+                      </div>
+                      <div
+                        class="ag-timeline-card_desc"
+                      >
+                        J&apos;obtiens mon diplôme
+                        de développeur web et web
+                        mobile de niveau 5. Je
+                        continue à m&apos;exercer
+                        sur de petits projets
+                        personnels pour enrichir
+                        mes connaissances et
+                        découvrir de nouvelles
+                        choses. Je recherche un
+                        emploi de développeur et
+                        j&apos;ai pour objectif de
+                        devenir auto entrepreneur
+                        et exercer en freelance en
+                        parallèle.
+                        <!-- Donec quam felis,
+                        ultricies nec,
+                        pellentesque eu, pretium
+                        quis, sem. Nulla consequat
+                        massa quis enim. Donec
+                        pede justo, fringilla vel,
+                        aliquet nec, vulputate
+                        eget, arcu. In enim justo,
+                        rhoncus ut, imperdiet a,
+                        venenatis vitae, justo.
+                        Nullam dictum felis eu
+                        pede mollis pretium.
+                        Integer tincidunt. Cras
+                        dapibus. Vivamus elementum
+                        semper nisi. -->
+                      </div>
+                    </div>
+                  </div>
+                  <div
+                    class="ag-timeline-card_arrow"
+                  ></div>
+                </div>
+                <div
+                  class="js-timeline-card_point-box ag-timeline-card_point-box"
+                >
+                  <div
+                    class="ag-timeline-card_point"
+                  >
+                    2024
+                  </div>
+                </div>
+                <div
+                  class="ag-timeline-card_meta-box"
+                >
+                  <div
+                    class="ag-timeline-card_meta"
+                  >
+                    Diplôme Développeur Web obtenu
+                  </div>
+                </div>
+              </div>
+
+              <div
+                class="js-timeline_item js-ag-animated ag-timeline_item"
+              >
+                <div
+                  class="ag-timeline-card_item"
+                >
+                  <div
+                    class="ag-timeline-card_inner"
+                  >
+                    <div
+                      class="ag-timeline-card_img-box"
+                    >
+                      <img
+                        src="./image/c2ea.PNG"
+                        class="ag-timeline-card_img"
+                        width="100%"
+                        height="100%"
+                        alt=""
+                      />
+                    </div>
+                    <div
+                      class="ag-timeline-card_info"
+                    >
+                      <div
+                        class="ag-timeline-card_title"
+                      >
+                        Développeuse web CMS
+                      </div>
+                      <div
+                        class="ag-timeline-card_desc"
+                      >
+                        J&apos;ai travaillé
+                        pendant six mois à
+                        l&apos;agence PixnCom.
+                        L&apos;entreprise réalise
+                        des sites conçus avec le
+                        CMS WordPress. J&apos;ai
+                        réalisé un site vitrine
+                        pour une association
+                        canine. J&apos;ai ensuite
+                        construit un site vitrine
+                        dans le domaine du
+                        traitement des déchets
+                        ainsi que la refonte
+                        d&apos;un site pour une
+                        entreprise de traitement
+                        des eaux. J&apos;ai
+                        développé avec
+                        l&apos;équipe, un site
+                        e-commerce pour une
+                        entreprise de vente de
+                        produits de beauté avec
+                        WooCommerce.
+
+                        <!-- Quisque rutrum. Aenean
+                        imperdiet. Etiam ultricies
+                        nisi vel augue. Curabitur
+                        ullamcorper ultricies
+                        nisi. Nam eget dui. Etiam
+                        rhoncus. Maecenas tempus,
+                        tellus eget condimentum
+                        rhoncus, sem quam semper
+                        libero, sit amet
+                        adipiscing sem neque sed
+                        ipsum. Nam quam nunc,
+                        blandit vel, luctus
+                        pulvinar, hendrerit id,
+                        lorem. Maecenas nec odio
+                        et ante tincidunt tempus. -->
+                      </div>
+                    </div>
+                  </div>
+                  <div
+                    class="ag-timeline-card_arrow"
+                  ></div>
+                </div>
+                <div
+                  class="js-timeline-card_point-box ag-timeline-card_point-box"
+                >
+                  <div
+                    class="ag-timeline-card_point"
+                  >
+                    2024
+                  </div>
+                </div>
+                <div
+                  class="ag-timeline-card_meta-box"
+                >
+                  <div
+                    class="ag-timeline-card_meta"
+                  >
+                    Développeuse web CMS
+                  </div>
+                </div>
+              </div>
+
+              <div
+                class="js-timeline_item js-ag-animated ag-timeline_item"
+              >
+                <div
+                  class="ag-timeline-card_item"
+                >
+                  <div
+                    class="ag-timeline-card_inner"
+                  >
+                    <div
+                      class="ag-timeline-card_img-box"
+                    >
+                      <img
+                        src="./image/ozya_auto.webp"
+                        class="ag-timeline-card_img"
+                        width="100%"
+                        height="100%"
+                        alt=""
+                      />
+                    </div>
+                    <div
+                      class="ag-timeline-card_info"
+                    >
+                      <div
+                        class="ag-timeline-card_title"
+                      >
+                        Création Micro-entreprise
+                        Ozya
+                      </div>
+                      <div
+                        class="ag-timeline-card_desc"
+                      >
+                        Je développe mon site Ozya
+                        avec le framework Symfony.
+                        Le but est
+                        d&apos;apprendre le
+                        déploiement d&apos;un site
+                        et de débuter mon activité
+                        en tant que freelance.
+                        Cette création m&apos;a
+                        permis de mettre en
+                        pratique mes compétences
+                        en développement web et de
+                        les perfectionner.
+                        J&apos;ai appris à
+                        déployer un site, à le
+                        référencer. J&apos;ai
+                        également travaillé sur
+                        l&apos;optimisation SEO et
+                        la mise en place
+                        d&apos;une CSP, la mise en
+                        place de Google Analytics
+                        et de Google Search
+                        Console ainsi que les
+                        cookies avec
+                        Tarteaucitron. J&apos;ai
+                        appris à réaliser un audit
+                        et à maintenir une
+                        application web à jour.
+
+                        <!-- elementum semper nisi.
+                        Aenean vulputate eleifend
+                        tellus. Aenean leo ligula,
+                        porttitor eu, consequat
+                        vitae, eleifend ac, enim.
+                        Aliquam lorem ante,
+                        dapibus in, viverra quis,
+                        feugiat a, tellus.
+                        Phasellus viverra nulla ut
+                        metus varius laoreet.
+                        Quisque rutrum. -->
+                      </div>
+                    </div>
+                  </div>
+                  <div
+                    class="ag-timeline-card_arrow"
+                  ></div>
+                </div>
+                <div
+                  class="js-timeline-card_point-box ag-timeline-card_point-box"
+                >
+                  <div
+                    class="ag-timeline-card_point"
+                  >
+                    2025
+                  </div>
+                </div>
+                <div
+                  class="ag-timeline-card_meta-box"
+                >
+                  <div
+                    class="ag-timeline-card_meta"
+                  >
+                    Création Micro-entreprise Ozya
+                  </div>
+                </div>
+              </div>
+
+              <div
+                class="js-timeline_item js-ag-animated ag-timeline_item"
+              >
+                <div
+                  class="ag-timeline-card_item"
+                >
+                  <div
+                    class="ag-timeline-card_inner"
+                  >
+                    <div
+                      class="ag-timeline-card_img-box"
+                    >
+                      <img
+                        src="./image/me_dev.PNG"
+                        class="ag-timeline-card_img"
+                        width="100%"
+                        height="100%"
+                      />
+                    </div>
+                    <div
+                      class="ag-timeline-card_info"
+                    >
+                      <div
+                        class="ag-timeline-card_title"
+                      >
+                        Alternance CDA
+                      </div>
+                      <div
+                        class="ag-timeline-card_desc"
+                      >
+                        Suite à ma création
+                        d&apos;entreprise, je me
+                        rends compte qu'il est
+                        essentiel de compléter mes
+                        connaissances et de
+                        m&apos;enrichir
+                        d&apos;expériences
+                        professionnelles. Je
+                        souhaite obtenir un
+                        diplôme plus élevé et me
+                        spécialiser dans le
+                        développement web. Je
+                        recherche une alternance
+                        pour obtenir le diplôme de
+                        niveau 6 de Concepteur
+                        Développeur
+                        d&apos;Applications.
+                        <!-- Nullam dictum felis eu
+                        pede mollis pretium.
+                        Integer tincidunt. Cras
+                        dapibus. Vivamus elementum
+                        semper nisi. Aenean
+                        vulputate eleifend tellus.
+                        Aenean leo ligula,
+                        porttitor eu, consequat
+                        vitae, eleifend ac, enim.
+                        Aliquam lorem ante,
+                        dapibus in, viverra quis,
+                        feugiat a, tellus.
+                        Phasellus viverra nulla ut
+                        metus varius laoreet. -->
+                      </div>
+                    </div>
+                  </div>
+                  <div
+                    class="ag-timeline-card_arrow"
+                  ></div>
+                </div>
+                <div
+                  class="js-timeline-card_point-box ag-timeline-card_point-box"
+                >
+                  <div
+                    class="ag-timeline-card_point"
+                  >
+                    2025
+                  </div>
+                </div>
+                <div
+                  class="ag-timeline-card_meta-box"
+                >
+                  <div
+                    class="ag-timeline-card_meta"
+                  >
+                    Alternance CDA
+                  </div>
+                </div>
+              </div>
+
+              <div
+                class="js-timeline_item js-ag-animated ag-timeline_item"
+              >
+                <div
+                  class="ag-timeline-card_item"
+                >
+                  <div
+                    class="ag-timeline-card_inner"
+                  >
+                    <div
+                      class="ag-timeline-card_img-box"
+                    >
+                      <img
+                        src="./image/me_dev.PNG"
+                        class="ag-timeline-card_img"
+                        width="100%"
+                        height="100%"
+                      />
+                    </div>
+                    <div
+                      class="ag-timeline-card_info"
+                    >
+                      <div
+                        class="ag-timeline-card_title"
+                      >
+                        Alternance CDA
+                      </div>
+                      <div
+                        class="ag-timeline-card_desc"
+                      >
+                        Cette année
+                        d&apos;apprentissage sera
+                        une opportunité pour
+                        développer mes
+                        connaissances et rejoindre
+                        une équipe. Je suis
+                        motivée à l&apos;idée de
+                        travailler en entreprise
+                        et de mettre en pratique
+                        mes compétences. Je
+                        souhaite apprendre de
+                        nouvelles technologies et
+                        de nouvelles méthodes de
+                        travail, toujours avec
+                        passion.
+                        <!-- Curabitur ullamcorper
+                        ultricies nisi. Nam eget
+                        dui. Etiam rhoncus.
+                        Maecenas tempus, tellus
+                        eget condimentum rhoncus,
+                        sem quam semper libero,
+                        sit amet adipiscing sem
+                        neque sed ipsum. Nam quam
+                        nunc, blandit vel, luctus
+                        pulvinar, hendrerit id,
+                        lorem. Maecenas nec odio
+                        et ante tincidunt tempus.
+                        Donec vitae sapien ut
+                        libero venenatis faucibus.
+                        Nullam quis ante. Etiam
+                        sit amet orci eget eros
+                        faucibus tincidunt. Duis
+                        leo. Sed fringilla mauris
+                        sit amet nibh. -->
+                      </div>
+                    </div>
+                  </div>
+                  <div
+                    class="ag-timeline-card_arrow"
+                  ></div>
+                </div>
+                <div
+                  class="js-timeline-card_point-box ag-timeline-card_point-box"
+                >
+                  <div
+                    class="ag-timeline-card_point"
+                  >
+                    2026
+                  </div>
+                </div>
+                <div
+                  class="ag-timeline-card_meta-box"
+                >
+                  <div
+                    class="ag-timeline-card_meta"
+                  >
+                    Alternance CDA
+                  </div>
+                </div>
+              </div>
+
+              <div
+                class="js-timeline_item js-ag-animated ag-timeline_item"
+              >
+                <div
+                  class="ag-timeline-card_item"
+                >
+                  <div
+                    class="ag-timeline-card_inner"
+                  >
+                    <div
+                      class="ag-timeline-card_img-box"
+                    >
+                      <img
+                        src="./image/me_dev.PNG"
+                        class="ag-timeline-card_img"
+                        width="100%"
+                        height="100%"
+                      />
+                    </div>
+                    <div
+                      class="ag-timeline-card_info"
+                    >
+                      <div
+                        class="ag-timeline-card_title"
+                      >
+                        Diplôme CDA niveau 6
+                      </div>
+                      <div
+                        class="ag-timeline-card_desc"
+                      >
+                        Je suis convaincue que la
+                        formation de Concepteur
+                        Développeur
+                        d&apos;Applications est la
+                        suite logique de mon
+                        parcours. J&apos;ai hâte
+                        de découvrir de nouvelles
+                        technologies et de me
+                        perfectionner. Je suis
+                        prête à relever de
+                        nouveaux défis et à
+                        m&apos;investir pleinement
+                        dans cette formation.
+                        <!-- suis motivée à l&apos;idée
+                        de travailler en
+                        entreprise et de mettre en
+                        pratique mes compétences.
+                        Je souhaite apprendre de
+                        nouvelles technologies et
+                        de nouvelles méthodes de
+                        travail. Je suis prête à
+                        m&apos;investir pleinement
+                        dans cette expérience,
+                        toujours avec passion. -->
+                        <!-- Aenean vulputate eleifend
+                        tellus. Aenean leo ligula,
+                        porttitor eu, consequat
+                        vitae, eleifend ac, enim.
+                        Aliquam lorem ante,
+                        dapibus in, viverra quis,
+                        feugiat a, tellus.
+                        Phasellus viverra nulla ut
+                        metus varius laoreet.
+                        Quisque rutrum. Aenean
+                        imperdiet. Etiam ultricies
+                        nisi vel augue. Curabitur
+                        ullamcorper ultricies
+                        nisi. Nam eget dui. -->
+                      </div>
+                    </div>
+                  </div>
+                  <div
+                    class="ag-timeline-card_arrow"
+                  ></div>
+                </div>
+                <div
+                  class="js-timeline-card_point-box ag-timeline-card_point-box"
+                >
+                  <div
+                    class="ag-timeline-card_point"
+                  >
+                    2026
+                  </div>
+                </div>
+                <div
+                  class="ag-timeline-card_meta-box"
+                >
+                  <div
+                    class="ag-timeline-card_meta"
+                  >
+                    Diplôme CDA niveau 6
+                  </div>
+                </div>
+              </div>
+
+              <div
+                class="js-timeline_item js-ag-animated ag-timeline_item"
+              >
+                <div
+                  class="ag-timeline-card_item"
+                >
+                  <div
+                    class="ag-timeline-card_inner"
+                  >
+                    <div
+                      class="ag-timeline-card_img-box"
+                    >
+                      <img
+                        src="./image/me_dev.PNG"
+                        class="ag-timeline-card_img"
+                        width="100%"
+                        height="100%"
+                      />
+                    </div>
+                    <div
+                      class="ag-timeline-card_info"
+                    >
+                      <div
+                        class="ag-timeline-card_title"
+                      >
+                        Votre développeuse web
+                      </div>
+                      <div
+                        class="ag-timeline-card_desc"
+                      >
+                        Suite à l&apos;alternance,
+                        je suis déterminée à
+                        m&apos;engager pour votre
+                        entreprise. Je souhaite
+                        m&apos;investir pleinement
+                        dans vos projets et tout
+                        mettre en oeuvre pour
+                        réussir ensemble. Je suis
+                        motivée à l&apos;idée
+                        d&apos;intégrer une équipe
+                        et de me perfectionner
+                        chaque jour.
+                        <!-- Donec pede justo,
+                        fringilla vel, aliquet
+                        nec, vulputate eget, arcu.
+                        In enim justo, rhoncus ut,
+                        imperdiet a, venenatis
+                        vitae, justo. Nullam
+                        dictum felis eu pede
+                        mollis pretium. Integer
+                        tincidunt. Cras dapibus.
+                        Vivamus elementum semper
+                        nisi. Aenean vulputate
+                        eleifend tellus. Aenean
+                        leo ligula, porttitor eu,
+                        consequat vitae, eleifend
+                        ac, enim. Aliquam lorem
+                        ante, dapibus in, viverra
+                        quis, feugiat a, tellus. -->
+                      </div>
+                    </div>
+                  </div>
+                  <div
+                    class="ag-timeline-card_arrow"
+                  ></div>
+                </div>
+                <div
+                  class="js-timeline-card_point-box ag-timeline-card_point-box"
+                >
+                  <div
+                    class="ag-timeline-card_point"
+                  >
+                    2027
+                  </div>
+                </div>
+                <div
+                  class="ag-timeline-card_meta-box"
+                >
+                  <div
+                    class="ag-timeline-card_meta"
+                  >
+                    Votre développeuse web
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+    </div>
+
+    <div class="wrapper">
+      <div class="confetti red"></div>
+      <div class="confetti blue"></div>
+      <div class="confetti yellow"></div>
+      <p>merci</p>
+    </div>
+
+    <div id="return">
+      <a href="#" class="top">Back to Top</a>
+    </div>
+
+    <!-- section script -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.7.1/jquery.min.js"></script>
+    <script src="./script.js"></script>
+    <script src="./script2.js"></script>
+    <script src="./script3.js"></script>
+  </body>
+</html>

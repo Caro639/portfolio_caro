@@ -1,0 +1,456 @@
+<!DOCTYPE html>
+<html lang="fr">
+  <head>
+    <meta charset="UTF-8" />
+    <meta
+      name="viewport"
+      content="width=device-width, initial-scale=1.0"
+    />
+    <link
+      rel="stylesheet"
+      type="text/css"
+      href="./style.css"
+    />
+    <link
+      rel="stylesheet"
+      type="text/css"
+      href="./style2.css"
+    />
+    <link
+      rel="stylesheet"
+      type="text/css"
+      href="./style3.css"
+    />
+    <link
+      rel="preconnect"
+      href="https://fonts.googleapis.com"
+    />
+    <link
+      rel="preconnect"
+      href="https://fonts.gstatic.com"
+      crossorigin
+    />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap"
+      rel="stylesheet"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css"
+    />
+    <title>
+      Portfolio Werner Carole Développeuse Web
+    </title>
+    <link
+      rel="icon"
+      type="image/webp"
+      href="/image/favicon_terra.webp"
+    />
+  </head>
+  <body id="page2">
+    <canvas
+      id="nokey"
+      width="800"
+      height="800"
+    ></canvas>
+
+    <!-- menu -->
+    <svg style="display: none">
+      <defs>
+        <g id="home">
+          <path
+            fill="#ad45c6"
+            d="M42,48H6c-3.3,0-6-2.7-6-6V6c0-3.3,2.7-6,6-6h36c3.3,0,6,2.7,6,6v36C48,45.3,45.3,48,42,48z"
+          />
+          <path
+            fill="#212121"
+            d="M20.8,35.5v-9.6h6.4v9.6h8V22.7H40L24,8.3L8,22.7h4.8v12.8H20.8z"
+          />
+        </g>
+
+        <g id="map">
+          <path
+            fill="#ad45c6"
+            d="M16,14.2c-1,0-1.8,0.8-1.8,1.8s0.8,1.8,1.8,1.8c1,0,1.8-0.8,1.8-1.8S17,14.2,16,14.2z M16,0
+          C7.2,0,0,7.2,0,16c0,8.8,7.2,16,16,16s16-7.2,16-16C32,7.2,24.8,0,16,0z M19.5,19.5L6.4,25.6l6.1-13.1l13.1-6.1L19.5,19.5z"
+          />
+        </g>
+
+        <g id="search">
+          <path
+            fill="#ad45c6"
+            d="M22.9,20.1h-1.5l-0.5-0.5c1.8-2.1,2.9-4.8,2.9-7.7C23.8,5.3,18.5,0,11.9,0S0,5.3,0,11.9s5.3,11.9,11.9,11.9
+          c3,0,5.7-1.1,7.7-2.9l0.5,0.5v1.4l9.1,9.1l2.7-2.7L22.9,20.1z M11.9,20.1c-4.5,0-8.2-3.7-8.2-8.2s3.7-8.2,8.2-8.2s8.2,3.7,8.2,8.2
+          S16.4,20.1,11.9,20.1z"
+          />
+        </g>
+
+        <g id="planner">
+          <path
+            fill="#ad45c6"
+            d="M8,72h56c4.4,0,8-3.6,8-8V8c0-4.4-3.6-8-8-8H8C3.6,0,0,3.6,0,8v56C0,68.4,3.6,72,8,72z"
+          />
+          <path
+            fill="#212121"
+            d="M62,62H51.3V43.8c0-5-1.9-7.8-5.8-7.8c-4.3,0-6.5,2.9-6.5,7.8V62H28.6V27.3h10.3V32c0,0,3.1-5.7,10.5-5.7
+		c7.4,0,12.6,4.5,12.6,13.8V62z M16.3,22.8c-3.5,0-6.3-2.9-6.3-6.4s2.8-6.4,6.3-6.4s6.3,2.9,6.3,6.4S19.9,22.8,16.3,22.8z M11,62
+		h10.7V27.3H11V62z"
+          />
+        </g>
+        <g id="git">
+          <path
+            fill="#ad45c6"
+            d="M512,0C229.1,0,0,229.1,0,512c0,226.6,146.6,417.9,350.1,485.8c25.6,4.5,35.2-10.9,35.2-24.3
+	c0-12.2-0.6-52.5-0.6-95.4c-128.6,23.7-161.9-31.4-172.2-60.2c-5.8-14.7-30.7-60.2-52.5-72.3c-17.9-9.6-43.5-33.3-0.6-33.9
+	c40.3-0.6,69.1,37.1,78.7,52.5c46.1,77.4,119.7,55.7,149.1,42.2c4.5-33.3,17.9-55.7,32.6-68.5c-113.9-12.8-233-57-233-252.8
+	c0-55.7,19.8-101.8,52.5-137.6c-5.1-12.8-23-65.3,5.1-135.7c0,0,42.9-13.4,140.8,52.5c41-11.5,84.5-17.3,128-17.3
+	c43.5,0,87,5.8,128,17.3c97.9-66.6,140.8-52.5,140.8-52.5c28.2,70.4,10.2,122.9,5.1,135.7c32.6,35.8,52.5,81.3,52.5,137.6
+	c0,196.5-119.7,240-233.6,252.8c18.6,16,34.6,46.7,34.6,94.7c0,68.5-0.6,123.5-0.6,140.8c0,13.4,9.6,29.4,35.2,24.3
+	C877.4,929.9,1024,737.9,1024,512C1024,229.1,794.9,0,512,0z"
+          />
+        </g>
+      </defs>
+    </svg>
+
+    <nav class="nav__cont">
+      <ul class="nav">
+        <li class="nav__items">
+          <svg
+            xmlns="http://www.w3.org/2000/svg"
+            viewBox="0 0 48 48"
+          >
+            <use xlink:href="#home"></use>
+          </svg>
+          <a href="./">Accueil</a>
+        </li>
+
+        <li class="nav__items">
+          <svg
+            xmlns="http://www.w3.org/2000/svg"
+            viewBox="0 0 32 32"
+          >
+            <use xlink:href="#map"></use>
+          </svg>
+          <a href="./page2.html">Parcours</a>
+        </li>
+
+        <li class="nav__items">
+          <svg
+            xmlns="http://www.w3.org/2000/svg"
+            viewBox="0 0 32 32"
+          >
+            <use xlink:href="#search"></use>
+          </svg>
+          <a href="./page3.html">Projets</a>
+        </li>
+
+        <li class="nav__items">
+          <svg
+            xmlns="http://www.w3.org/2000/svg"
+            viewBox="0 0 72 72"
+          >
+            <use xlink:href="#planner"></use>
+          </svg>
+          <a href="">Planner</a>
+        </li>
+        <li class="nav__items">
+          <svg
+            xmlns="http://www.w3.org/2000/svg"
+            viewBox="0 0 1024 1024"
+          >
+            <use xlink:href="#git"></use>
+          </svg>
+          <a href="">Github</a>
+        </li>
+      </ul>
+    </nav>
+
+    <div class="hero">
+      <h1>Mes projets</h1>
+
+      <div class="hero-text">
+        <p>
+          J&apos;apprends le développement web
+          depuis 2021. J&apos;ai commencé par
+          apprendre à coder en HTML, CSS et le
+          langage PHP. Puis, j&apos;ai appris à
+          utiliser les frameworks tel que React
+          Next.js. Le framework sur lequel
+          j&apos;ai le plus travaillé est Symfony.
+          Je continue d&apos;apprendre chaque jour
+          avec passion et détermination.
+        </p>
+      </div>
+      <div class="container">
+        <a href="#projets" class="button">
+          <div class="globe"></div>
+          <div class="globe s2"></div>
+          <div class="globe s3"></div>
+          <span id="projet_button">projets</span>
+          <div class="moon"></div>
+        </a>
+      </div>
+    </div>
+    <img
+      src="./image/terra.webp"
+      alt="la planète terre"
+      class="terra"
+    />
+
+    <h2 id="projets">Projets</h2>
+    <p id="p_projets">SCROLL MY PROJECTS</p>
+    <div id="projet_swiper">
+      <div class="swiper-container">
+        <div class="swiper-wrapper">
+          <div class="slider-item swiper-slide">
+            <div class="slider-image-wrapper">
+              <img
+                class="slider-image"
+                src="./image/quezaquo_accueil.PNG"
+                alt="SliderImg"
+              />
+            </div>
+            <div class="slider-item-content">
+              <h3>Que Za Quo</h3>
+              <p class="p_slider">
+                Lorem ipsum dolor sit amet,
+                consectetur adipiscing elit, sed
+                do eiusmod tempor incididunt ut
+                labore
+              </p>
+              <a href="#">site github</a>
+            </div>
+          </div>
+          <div class="slider-item swiper-slide">
+            <div class="slider-image-wrapper">
+              <img
+                class="slider-image"
+                src="./image/exemple2_ing.PNG"
+                alt="SliderImg"
+              />
+            </div>
+            <div class="slider-item-content">
+              <h3>Que Za Quo</h3>
+              <p class="p_slider">
+                recettes Je dois créer les routes,
+                les contrôleurs, les entités et
+                les formulaires. J&apos;ai appris
+                à utiliser les services, les
+                repositories et les fixtures.
+                J&apos;ai découvert le système de
+                sécurité et les tests unitaires.
+                Lorem ipsum dolor sit amet,
+                consectetur adipiscing elit, sed
+                do eiusmod tempor incididunt ut
+                labore
+              </p>
+              <a href="#">site github</a>
+            </div>
+          </div>
+          <div class="slider-item swiper-slide">
+            <div class="slider-image-wrapper">
+              <img
+                class="slider-image"
+                src="./image/noterrecettes.PNG"
+                alt="SliderImg"
+              />
+            </div>
+            <div class="slider-item-content">
+              <h3>HelloRecettes</h3>
+              <p class="p_slider">
+                recettes Je dois créer les routes,
+                les contrôleurs, les entités et
+                les formulaires. J&apos;ai appris
+                à utiliser les services, les
+                repositories et les fixtures.
+                J&apos;ai découvert le système de
+                sécurité et les tests unitaires.
+                Lorem ipsum dolor sit amet,
+                consectetur adipiscing elit, sed
+                do eiusmod tempor incididunt ut
+                labore
+              </p>
+              <a href="#">site github</a>
+            </div>
+          </div>
+          <div class="slider-item swiper-slide">
+            <div class="slider-image-wrapper">
+              <img
+                class="slider-image"
+                src="./image/recettesadmin.PNG"
+                alt="SliderImg"
+              />
+            </div>
+            <div class="slider-item-content">
+              <h3>HelloRecettes</h3>
+              <p class="p_slider">
+                recettes Je dois créer les routes,
+                les contrôleurs, les entités et
+                les formulaires. J&apos;ai appris
+                à utiliser les services, les
+                repositories et les fixtures.
+                J&apos;ai découvert le système de
+                sécurité et les tests unitaires.
+                Lorem ipsum dolor sit amet,
+                consectetur adipiscing elit, sed
+                do eiusmod tempor incididunt ut
+                labore
+              </p>
+              <a href="#">site github</a>
+            </div>
+          </div>
+          <div class="slider-item swiper-slide">
+            <div class="slider-image-wrapper">
+              <img
+                class="slider-image"
+                src="./image/apirecettespubliques.PNG"
+                alt="SliderImg"
+              />
+            </div>
+            <div class="slider-item-content">
+              <h3>HelloRecettes API</h3>
+              <p class="p_slider">
+                recettes Je dois créer les routes,
+                les contrôleurs, les entités et
+                les formulaires. J&apos;ai appris
+                à utiliser les services, les
+                repositories et les fixtures.
+                J&apos;ai découvert le système de
+                sécurité et les tests unitaires.
+                Lorem ipsum dolor sit amet,
+                consectetur adipiscing elit, sed
+                do eiusmod tempor incididunt ut
+                labore
+              </p>
+              <a href="#">site github</a>
+            </div>
+          </div>
+          <div class="slider-item swiper-slide">
+            <div class="slider-image-wrapper">
+              <img
+                class="slider-image"
+                src="./image/responseapi.PNG"
+                alt="SliderImg"
+              />
+            </div>
+            <div class="slider-item-content">
+              <h3>HelloRecettes API</h3>
+              <p class="p_slider">
+                recettes Je dois créer les routes,
+                les contrôleurs, les entités et
+                les formulaires. J&apos;ai appris
+                à utiliser les services, les
+                repositories et les fixtures.
+                J&apos;ai découvert le système de
+                sécurité et les tests unitaires.
+                Lorem ipsum dolor sit amet,
+                consectetur adipiscing elit, sed
+                do eiusmod tempor incididunt ut
+                labore
+              </p>
+              <a href="#">site github</a>
+            </div>
+          </div>
+          <div class="slider-item swiper-slide">
+            <div class="slider-image-wrapper">
+              <img
+                class="slider-image"
+                src="./image/ozya_contact.PNG"
+                alt="SliderImg"
+              />
+            </div>
+            <div class="slider-item-content">
+              <h3>Ozya</h3>
+              <p class="p_slider">
+                Lorem ipsum dolor sit amet,
+                consectetur adipiscing elit, sed
+                do eiusmod tempor incididunt ut
+                labore
+              </p>
+              <a href="#">site github</a>
+            </div>
+          </div>
+          <div class="slider-item swiper-slide">
+            <div class="slider-image-wrapper">
+              <img
+                class="slider-image"
+                src="./image/recettesadmin.PNG"
+                alt="SliderImg"
+              />
+            </div>
+            <div class="slider-item-content">
+              <h3>Salon du vin</h3>
+              <p class="p_slider">
+                Lorem ipsum dolor sit amet,
+                consectetur adipiscing elit, sed
+                do eiusmod tempor incididunt ut
+                labore
+              </p>
+              <a href="#">site github</a>
+            </div>
+          </div>
+          <div class="slider-item swiper-slide">
+            <div class="slider-image-wrapper">
+              <img
+                class="slider-image"
+                src="./image/noterrecettes.PNG"
+                alt="SliderImg"
+              />
+            </div>
+            <div class="slider-item-content">
+              <h3>e-commerce</h3>
+              <p class="p_slider">
+                recettes Je dois créer les routes,
+                les contrôleurs, les entités et
+                les formulaires. J&apos;ai appris
+                à utiliser les services, les
+                repositories et les fixtures.
+                J&apos;ai découvert le système de
+                sécurité et les tests unitaires.
+                Lorem ipsum dolor sit amet,
+                consectetur adipiscing elit, sed
+                do eiusmod tempor incididunt ut
+                labore
+              </p>
+              <a href="#">site github</a>
+            </div>
+          </div>
+        </div>
+        <!-- <div class="slider-buttons">
+          <button class="swiper-button-prev">
+            Prev
+          </button>
+          <button class="swiper-button-next">
+            Next
+          </button>
+        </div> -->
+
+        <div class="swiper-pagination"></div>
+      </div>
+    </div>
+
+    <div id="wrapper_projet">
+      <div class="wrapper">
+        <div class="confetti red"></div>
+        <div class="confetti blue"></div>
+        <div class="confetti yellow"></div>
+        <p>merci</p>
+      </div>
+    </div>
+
+    <div id="return">
+      <a href="#" class="top">Back to Top</a>
+    </div>
+
+    <!-- section script -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.7.1/jquery.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
+    <!-- <script src="https://cdn.jsdelivr.net/npm/gsap@3.12.7/dist/gsap.min.js"></script>
+
+    <script src="https://cdn.jsdelivr.net/npm/gsap@3.12.7/dist/ScrollTrigger.min.js"></script> -->
+    <script src="./script.js"></script>
+    <script src="./script3.js"></script>
+    <script src="./swiper.js"></script>
+    <!-- <script src="./gsap.js"></script> -->
+  </body>
+</html>

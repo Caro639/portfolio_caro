@@ -5,8 +5,6 @@ body {
       #090a0f 100%
     )
     no-repeat;
-  /* height: 100vh; */
-  /* overflow-x: hidden; */
   margin: 0 auto;
 }
 
@@ -25,7 +23,7 @@ body {
   right: -11%;
   width: 100vh;
   height: 100vh;
-  position: absolute;
+  position: fixed;
 }
 
 .presentation {
@@ -1476,5 +1474,73 @@ svg {
   }
   100% {
     transform: translateY(-2000px);
+  }
+}
+
+/* responsive */
+@media all and (max-width: 1600px) {
+  .earth {
+    right: -15%;
+  }
+}
+
+@media all and (max-width: 1450px) {
+  .earth {
+    right: -25%;
+  }
+
+  h1 {
+    font-size: 2.5em;
+  }
+
+  .caption {
+    font-size: 40px;
+  }
+
+  .container {
+    margin: 60px 50px;
+  }
+}
+
+@media all and (max-width: 1380px) {
+  .caption {
+    font-size: 35px;
+    line-height: 122px;
+  }
+
+  .button {
+    width: 220px;
+    height: 80px;
+  }
+
+  .button span {
+    font-size: 25px;
+    margin: 5px auto;
+    left: 59px;
+  }
+}
+
+@media all and (max-width: 1280px) {
+  h1 {
+    font-size: 2.3em;
+  }
+}
+
+@media all and (max-width: 1160px) {
+  .earth {
+    right: -35%;
+  }
+
+  h1 {
+    font-size: 2em;
+  }
+
+  .caption {
+    font-size: 30px;
+    line-height: 128px;
+  }
+
+  .container {
+    margin: 60px 30px;
   }
 }

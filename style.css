@@ -19,6 +19,7 @@ body {
 }
 
 .earth {
+  aspect-ratio: auto 2168/2128;
   top: 0;
   right: -15%;
   width: 100vh;

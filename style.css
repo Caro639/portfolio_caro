@@ -1601,6 +1601,11 @@ svg {
     margin: -5px auto;
     left: 30px;
   }
+
+  .moon {
+    width: 55px;
+    height: 55px;
+  }
 }
 
 @media all and (max-width: 380px) {

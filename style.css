@@ -19,10 +19,10 @@ body {
 }
 
 .earth {
-  aspect-ratio: auto 1 / 1;
+  aspect-ratio: auto 2168 / 2128;
   top: 0;
   right: -15%;
-  width: 100vh;
+  width: auto;
   height: 100vh;
   position: fixed;
 }
@@ -1481,9 +1481,6 @@ svg {
 }
 
 @media all and (max-width: 1380px) {
-  .earth {
-    right: -35%;
-  }
   .caption {
     font-size: 35px;
     line-height: 122px;

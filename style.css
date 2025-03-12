@@ -1390,7 +1390,7 @@ svg {
     626px 1179px #fff, 846px 529px #fff,
     533px 1755px #fff, 1824px 808px #fff,
     1250px 997px #fff, 880px 342px #fff;
-  animation: animStar 150slinear infinite;
+  animation: animStar 150 linear infinite;
 }
 
 #stars3:after {

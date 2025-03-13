@@ -39,7 +39,41 @@
     />
     <link
       href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap"
-      rel="stylesheet"
+      rel="preload"
+      as="font"
+      type="font/woff2"
+      crossorigin
+    />
+    <link
+      rel="preload"
+      as="image"
+      href="./image/terra.webp"
+    />
+    <link
+      rel="preload"
+      as="image"
+      href="./image/terra_mobile.webp"
+      media="(max-width: 465px)"
+    />
+    <link
+      rel="preload"
+      as="image"
+      href="./image/planete.webp"
+    />
+    <link
+      rel="preload"
+      href="https://ajax.googleapis.com/ajax/libs/jquery/3.7.1/jquery.min.js"
+      as="script"
+    />
+    <link
+      rel="preload"
+      href="./script.js"
+      as="script"
+    />
+    <link
+      rel="preload"
+      href="./script3.js"
+      as="script"
     />
     <title>
       Portfolio Werner Carole Développeuse Web
@@ -176,11 +210,23 @@
       </ul>
     </nav>
 
-    <img
-      src="./image/terra.webp"
-      alt="la planète terre"
-      class="terra"
-    />
+    <picture>
+      <source
+        media="(max-width:465px)"
+        srcset="./image/terra_mobile.webp"
+        width="942"
+        height="925"
+        type="image/webp"
+      />
+      <img
+        src="./image/terra.webp"
+        width="2168"
+        height="2128"
+        alt="la planète terre"
+        class="terra"
+      />
+    </picture>
+
     <div class="hero">
       <h1>Mes projets</h1>
 
@@ -214,7 +260,8 @@
         <div class="projet_card">
           <img
             class="projet_img"
-            src="./image/quezaquo_accueil.PNG"
+            src="./image/quezaquo_accueil.webp"
+            loading="lazy"
             alt="exemple recherche nutella"
           />
           <div class="projet_content">
@@ -255,8 +302,9 @@
         <div class="projet_card">
           <img
             class="projet_img"
-            src="./image/recettesadmin.PNG"
-            alt="SliderImg"
+            src="./image/recettesadmin.webp"
+            loading="lazy"
+            alt="administration symfony"
           />
           <div class="projet_content">
             <h3 class="projet_title">
@@ -293,51 +341,13 @@
             </div>
           </div>
         </div>
-        <!-- <div class="projet_card">
-          <img
-            class="projet_img"
-            src="./image/apirecettespubliques.PNG"
-            alt="SliderImg"
-          />
-          <div class="projet_content">
-            <h3 class="projet_title">
-              HelloRecettes API
-            </h3>
-            <p class="projet_info">
-              Cette API est réalisée à partir des
-              données de l&apos;application
-              HelloRecettes. Elle est conçue avec
-              l&apos;<strong>API Platform</strong>
-              du framework
-              <strong>Symfony.</strong>
-            </p>
-            <div class="projet-btn-grp">
-              <button class="projet-btn github">
-                <a
-                  href="https://github.com/Caro639/HelloRecettes"
-                  target="_blank"
-                  rel="noopener noreferrer"
-                >
-                  Github Repo
-                </a>
-              </button>
-              <button class="projet-btn live">
-                <a
-                  href="https://github.com/Caro639/HelloRecettes"
-                  target="_blank"
-                  rel="noopener noreferrer"
-                >
-                  Voir en ligne
-                </a>
-              </button>
-            </div>
-          </div>
-        </div> -->
+
         <div class="projet_card">
           <img
             class="projet_img"
-            src="./image/salon_vin.PNG"
-            alt="SliderImg"
+            src="./image/salon_vin.webp"
+            loading="lazy"
+            alt="salon vin maquette"
           />
           <div class="projet_content">
             <h3 class="projet_title">
@@ -374,50 +384,12 @@
           </div>
         </div>
 
-        <!-- <div class="projet_card">
-          <img
-            class="projet_img"
-            src="./image/coffee.webp"
-            alt="SliderImg"
-          />
-          <div class="projet_content">
-            <h3 class="projet_title">
-              Projet E-commerce Coffee
-            </h3>
-            <p class="projet_info">
-              Ce projet est en cours de
-              réalisation. Il s&apos;agit
-              d&apos;un site e-commerce pour une
-              boutique de vente de café.
-            </p>
-            <div class="projet-btn-grp">
-              <button class="projet-btn github">
-                <a
-                  href="https://github.com/Caro639/css_exposition_foire"
-                  target="_blank"
-                  rel="noopener noreferrer"
-                >
-                Github Repo
-                </a>
-              </button>
-              <button class="projet-btn live">
-                <a
-                  href="https://github.com/Caro639/css_exposition_foire"
-                  target="_blank"
-                  rel="noopener noreferrer"
-                >
-                Voir en ligne
-                </a>
-              </button>
-            </div>
-          </div>
-        </div> -->
-
         <div class="projet_card">
           <img
             class="projet_img"
-            src="./image/ozya_contact.PNG"
-            alt="SliderImg"
+            src="./image/ozya_contact.webp"
+            loading="lazy"
+            alt="page contact du site ozya"
           />
           <div class="projet_content">
             <h3 class="projet_title">Ozya</h3>

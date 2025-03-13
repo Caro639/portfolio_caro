@@ -22,11 +22,10 @@ canvas {
   place-self: end;
   margin-top: calc(100vh + var(--offset));
   z-index: 2;
-
-  width: 60px;
+  width: 70px;
   aspect-ratio: 1;
-  background: #3a2b58;
-  border-radius: 10px;
+  /* background: #3a2b58;
+  border-radius: 10px; */
   font-size: 0;
 }
 .top:before {

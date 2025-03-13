@@ -34,7 +34,46 @@
     />
     <link
       href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap"
-      rel="stylesheet"
+      rel="preload"
+      as="font"
+      type="font/woff2"
+      crossorigin
+    />
+    <link
+      rel="preload"
+      as="image"
+      href="./image/terra.webp"
+    />
+    <link
+      rel="preload"
+      as="image"
+      href="./image/terra_mobile.webp"
+      media="(max-width: 465px)"
+    />
+    <link
+      rel="preload"
+      as="image"
+      href="./image/planete.webp"
+    />
+    <link
+      rel="preload"
+      href="https://ajax.googleapis.com/ajax/libs/jquery/3.7.1/jquery.min.js"
+      as="script"
+    />
+    <link
+      rel="preload"
+      href="./script.js"
+      as="script"
+    />
+    <link
+      rel="preload"
+      href="./script2.js"
+      as="script"
+    />
+    <link
+      rel="preload"
+      href="./script3.js"
+      as="script"
     />
     <title>
       Portfolio Werner Carole Développeuse Web
@@ -172,13 +211,22 @@
       </ul>
     </nav>
 
-    <img
-      src="./image/terra.webp"
-      width="2168"
-      height="2128"
-      alt="la planète terre"
-      class="terra"
-    />
+    <picture>
+      <source
+        media="(max-width:465px)"
+        srcset="./image/terra_mobile.webp"
+        width="942"
+        height="925"
+        type="image/webp"
+      />
+      <img
+        src="./image/terra.webp"
+        width="2168"
+        height="2128"
+        alt="la planète terre"
+        class="terra"
+      />
+    </picture>
 
     <div class="hero">
       <h1>Mon parcours dev</h1>
@@ -248,6 +296,7 @@
                     >
                       <img
                         src="./image/sitechalet.webp"
+                        loading="lazy"
                         class="ag-timeline-card_img"
                         width="100%"
                         height="100%"
@@ -323,6 +372,7 @@
                     >
                       <img
                         src="./image/chalets_sitewp.webp"
+                        loading="lazy"
                         class="ag-timeline-card_img"
                         width="100%"
                         height="100%"
@@ -403,7 +453,8 @@
                       class="ag-timeline-card_img-box"
                     >
                       <img
-                        src="./image/quezaquo_accueil.PNG"
+                        src="./image/quezaquo_accueil.webp"
+                        loading="lazy"
                         class="ag-timeline-card_img"
                         width="100%"
                         height="100%"
@@ -480,7 +531,8 @@
                       class="ag-timeline-card_img-box"
                     >
                       <img
-                        src="./image/ohmypanier.PNG"
+                        src="./image/ohmypanier.webp"
+                        loading="lazy"
                         class="ag-timeline-card_img"
                         width="100%"
                         height="100%"
@@ -566,6 +618,7 @@
                     >
                       <img
                         src="./image/3diplomes.svg"
+                        loading="lazy"
                         class="ag-timeline-card_img"
                         width="100%"
                         height="100%"
@@ -638,7 +691,8 @@
                       class="ag-timeline-card_img-box"
                     >
                       <img
-                        src="./image/c2ea.PNG"
+                        src="./image/c2ea.webp"
+                        loading="lazy"
                         class="ag-timeline-card_img"
                         width="100%"
                         height="100%"
@@ -711,6 +765,7 @@
                     >
                       <img
                         src="./image/ozya_auto.webp"
+                        loading="lazy"
                         class="ag-timeline-card_img"
                         width="100%"
                         height="100%"
@@ -793,6 +848,7 @@
                     >
                       <img
                         src="./image/portable.svg"
+                        loading="lazy"
                         class="ag-timeline-card_img"
                         width="100%"
                         height="100%"
@@ -867,6 +923,7 @@
                     >
                       <img
                         src="./image/code.webp"
+                        loading="lazy"
                         class="ag-timeline-card_img"
                         width="100%"
                         height="100%"
@@ -939,6 +996,7 @@
                     >
                       <img
                         src="./image/3diplomes.svg"
+                        loading="lazy"
                         class="ag-timeline-card_img"
                         width="100%"
                         height="100%"
@@ -1009,7 +1067,8 @@
                       class="ag-timeline-card_img-box"
                     >
                       <img
-                        src="./image/me_dev.PNG"
+                        src="./image/me_dev.webp"
+                        loading="lazy"
                         class="ag-timeline-card_img"
                         width="100%"
                         height="100%"

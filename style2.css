@@ -22,11 +22,10 @@ canvas {
   place-self: end;
   margin-top: calc(100vh + var(--offset));
   z-index: 2;
-
-  width: 60px;
+  width: 70px;
   aspect-ratio: 1;
-  background: #3a2b58;
-  border-radius: 10px;
+  /* background: #3a2b58;
+  border-radius: 10px; */
   font-size: 0;
 }
 .top:before {
@@ -91,6 +90,10 @@ canvas {
 }
 
 /* terre */
+picture {
+  width: auto;
+  height: 100vh;
+}
 .terra {
   aspect-ratio: auto 2168/2128;
   top: -1%;
@@ -170,7 +173,7 @@ img {
   color: rgb(84, 89, 95);
 }
 .ag-timeline_title {
-  background-image: url(./image/planete.jpg);
+  background-image: url(./image/planete.webp);
   background-repeat: no-repeat;
   background-position: 50% 30%;
 

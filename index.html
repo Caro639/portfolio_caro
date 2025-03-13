@@ -34,7 +34,21 @@
     />
     <link
       href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap"
-      rel="stylesheet"
+      rel="preload"
+      as="font"
+      type="font/woff2"
+      crossorigin
+    />
+    <link
+      rel="preload"
+      as="image"
+      href="./image/terra.webp"
+    />
+    <link
+      rel="preload"
+      as="image"
+      href="./image/terra_mobile.webp"
+      media="(max-width: 465px)"
     />
     <title>
       Portfolio Werner Carole Développeuse Web
@@ -194,13 +208,22 @@
           </div>
         </div>
       </div>
-      <img
-        src="./image/terra.webp"
-        width="2168"
-        height="2128"
-        alt="la planète terre"
-        class="earth"
-      />
+      <picture>
+        <source
+          media="(max-width:465px)"
+          srcset="./image/terra_mobile.webp"
+          width="942"
+          height="925"
+          type="image/webp"
+        />
+        <img
+          src="./image/terra.webp"
+          width="2168"
+          height="2128"
+          alt="la planète terre"
+          class="earth"
+        />
+      </picture>
     </div>
   </body>
 </html>

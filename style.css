@@ -43,7 +43,7 @@ picture {
 }
 
 h1 {
-  font-family: "montserrat";
+  font-family: "Montserrat";
   text-transform: uppercase;
   color: white;
   font-size: 2.8em;
@@ -56,7 +56,7 @@ h1 {
 .slider {
   padding: 0;
   color: white;
-  font-family: "montserrat";
+  font-family: "Montserrat";
   /* font-size: 2em; */
   text-transform: uppercase;
   height: 100px;
@@ -171,21 +171,6 @@ h1 {
   }
 }
 
-/* @keyframes slideColor {
-  0% {
-    background-color: #387780;
-  }
-  33% {
-    background-color: #3f88c5;
-  }
-  66% {
-    background-color: #588b8b;
-  }
-  100% {
-    background-color: #387780;
-  }
-} */
-
 /* menu */
 .nav__cont {
   position: fixed;
@@ -213,7 +198,7 @@ h1 {
 }
 .nav__items {
   padding-bottom: 4rem;
-  font-family: "montserrat";
+  font-family: "Montserrat";
 }
 .nav__items a {
   position: relative;
@@ -226,7 +211,7 @@ h1 {
   margin-right: 10px;
   text-decoration: none;
   color: white;
-  font-family: "montserrat";
+  font-family: "Montserrat";
   font-weight: 100;
   font-size: 1.35em;
 }

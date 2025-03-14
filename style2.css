@@ -57,7 +57,7 @@ canvas {
 }
 
 .hero-text p {
-  font-family: "montserrat";
+  font-family: "Montserrat";
   position: relative;
   width: 55vw;
   font-size: 30px;
@@ -131,7 +131,7 @@ picture {
 .wrapper p {
   color: #ad45c6;
   text-align: center;
-  font-family: "montserrat";
+  font-family: "Montserrat";
   font-size: 5em;
   text-transform: uppercase;
   font-weight: 700;
@@ -411,7 +411,7 @@ img {
 }
 .ag-timeline-card_desc {
   line-height: 1.45;
-  font-family: "montserrat";
+  font-family: "Montserrat";
   font-size: 1em;
   letter-spacing: 1px;
   color: #fff;

@@ -3,7 +3,7 @@
 }
 
 #projets {
-  font-family: "Montserrat";
+  font-family: "Montserrat", sans-serif;
   text-transform: uppercase;
   text-align: center;
   color: transparent;
@@ -53,14 +53,14 @@
   opacity: 0;
 }
 .projet_title {
-  font-family: "Montserrat";
+  font-family: "Montserrat", sans-serif;
   font-size: 40px;
   text-transform: capitalize;
   text-align: center;
   font-weight: 300;
 }
 .projet_info {
-  font-family: "Montserrat";
+  font-family: "Montserrat", sans-serif;
   margin: 40px;
   font-size: 18px;
   line-height: 30px;

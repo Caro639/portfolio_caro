@@ -22,6 +22,16 @@
   margin: 200px auto auto auto;
 }
 
+#page3 {
+  overflow-x: hidden;
+  scroll-behavior: smooth;
+}
+#page3 picture {
+  display: block;
+  width: auto;
+  height: auto;
+}
+
 /* section projet */
 .projet_container {
   display: grid;

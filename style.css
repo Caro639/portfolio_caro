@@ -18,7 +18,7 @@ body {
   overflow: hidden;
 }
 
-picture {
+#page1 picture {
   display: block;
   width: auto;
   height: auto;

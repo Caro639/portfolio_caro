@@ -90,12 +90,12 @@ canvas {
 }
 
 /* terre */
-#page2 picture {
+/* #page_two {
   display: block;
-  width: auto;
+  width: 23%;
   height: auto;
-}
-.terra {
+} */
+#page_two {
   aspect-ratio: auto 2168/2128;
   top: -1%;
   right: 0;
@@ -143,9 +143,9 @@ canvas {
 #titre_timeline {
   margin-bottom: 100px;
 }
-img {
+/* img {
   max-width: 100%;
-}
+} */
 
 .ag-format-container {
   display: -webkit-box;

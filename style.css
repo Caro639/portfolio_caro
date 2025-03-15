@@ -18,13 +18,13 @@ body {
   overflow: hidden;
 }
 
-#page1 picture {
+/* #page_one {
   display: block;
   width: auto;
   height: auto;
-}
+} */
 
-.earth {
+#page_one {
   aspect-ratio: auto 2168/2128;
   top: 0;
   right: -15%;
@@ -1469,7 +1469,7 @@ svg {
 
 /* responsive */
 @media all and (max-width: 1450px) {
-  .earth {
+  #page_one {
     right: -25%;
   }
 
@@ -1514,7 +1514,7 @@ svg {
 }
 
 @media all and (max-width: 1180px) {
-  .earth {
+  #page_one {
     right: -45%;
   }
 
@@ -1533,7 +1533,7 @@ svg {
 }
 
 @media all and (max-width: 1080px) {
-  .earth {
+  #page_one {
     width: 80%;
     height: auto;
   }

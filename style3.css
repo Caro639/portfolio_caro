@@ -26,10 +26,13 @@
   overflow-x: hidden;
   scroll-behavior: smooth;
 }
-#page3 picture {
-  display: block;
-  width: auto;
+#page_three {
+  aspect-ratio: auto 2168/2128;
+  top: -1%;
+  right: 0;
+  width: 23%;
   height: auto;
+  position: absolute;
 }
 
 /* section projet */

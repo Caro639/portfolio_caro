@@ -92,7 +92,7 @@ canvas {
 /* terre */
 #page2 picture {
   display: block;
-  width: auto;
+  width: 23%;
   height: auto;
 }
 .terra {
@@ -142,9 +142,6 @@ canvas {
 /* parcours */
 #titre_timeline {
   margin-bottom: 100px;
-}
-img {
-  max-width: 100%;
 }
 
 .ag-format-container {

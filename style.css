@@ -19,8 +19,9 @@ body {
 }
 
 picture {
+  display: block;
   width: auto;
-  height: 100vh;
+  height: auto;
 }
 
 .earth {

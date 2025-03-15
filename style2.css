@@ -90,6 +90,11 @@ canvas {
 }
 
 /* terre */
+#page2 picture {
+  display: block;
+  width: auto;
+  height: auto;
+}
 .terra {
   aspect-ratio: auto 2168/2128;
   top: -1%;

@@ -43,7 +43,7 @@ picture {
 }
 
 h1 {
-  font-family: "montserrat";
+  font-family: "Montserrat", sans-serif;
   text-transform: uppercase;
   color: white;
   font-size: 2.8em;
@@ -56,7 +56,7 @@ h1 {
 .slider {
   padding: 0;
   color: white;
-  font-family: "montserrat";
+  font-family: "Montserrat", sans-serif;
   /* font-size: 2em; */
   text-transform: uppercase;
   height: 100px;
@@ -213,7 +213,7 @@ h1 {
 }
 .nav__items {
   padding-bottom: 4rem;
-  font-family: "montserrat";
+  font-family: "Montserrat", sans-serif;
 }
 .nav__items a {
   position: relative;
@@ -226,7 +226,7 @@ h1 {
   margin-right: 10px;
   text-decoration: none;
   color: white;
-  font-family: "montserrat";
+  font-family: "Montserrat", sans-serif;
   font-weight: 100;
   font-size: 1.35em;
 }

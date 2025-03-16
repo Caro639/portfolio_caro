@@ -158,7 +158,6 @@
 }
 .ag-timeline_title-box {
   padding: 0 0 30px;
-
   text-align: center;
 }
 .ag-timeline_tagline {
@@ -166,15 +165,14 @@
   color: rgb(84, 89, 95);
 }
 .ag-timeline_title {
+  font-family: "ESL Legend", sans-serif;
   background-image: url(./image/planete.webp);
   background-repeat: no-repeat;
   background-position: 50% 30%;
-
   background-size: cover;
   -webkit-background-clip: text;
   background-clip: text;
   color: transparent;
-
   font-size: 150px;
 }
 

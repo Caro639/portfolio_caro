@@ -81,7 +81,9 @@
   top: 68%;
   margin: 80px -75px auto -75px;
 }
-
+.hero .container .button {
+  left: auto;
+}
 /* terre */
 #page2 picture {
   display: block;
@@ -594,10 +596,6 @@
     line-height: 40px;
     width: 40px;
   }
-  .hero .container .button {
-    left: -1px;
-  }
-
   .ag-timeline_item {
     display: -webkit-box;
     display: -webkit-flex;
@@ -664,9 +662,6 @@
 }
 
 @media only screen and (max-width: 768px) {
-  .hero .container .button {
-    left: 20px;
-  }
   .ag-format-container {
     width: 90%;
     margin-left: 55px;
@@ -744,9 +739,6 @@
   .hero h1 {
     font-size: 1.5em;
   }
-  .hero .container .button {
-    left: 30px;
-  }
   .hero-text p {
     font-size: 15.8px;
   }
@@ -771,9 +763,6 @@
   }
 }
 @media only screen and (max-width: 380px) {
-  .hero .container .button {
-    left: 40px;
-  }
   .hero h1 {
     font-size: 1.3em;
   }

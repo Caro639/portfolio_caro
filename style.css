@@ -273,6 +273,9 @@ svg {
 .sml,
 .button span {
   position: absolute;
+  display: flex;
+  align-items: center;
+  justify-content: center;
 }
 
 .container {
@@ -393,9 +396,9 @@ svg {
 .button span {
   text-align: center;
   font-weight: bold;
-  font-family: "Sacramento", cursive;
+  font-family: "ESL Legend", sans-serif;
   font-size: 35px;
-  left: 53px;
+  /* left: 53px; */
   line-height: 70px;
   margin: 15px auto;
   transition: all 1px ease-in-out;
@@ -1502,8 +1505,6 @@ svg {
 
   .button span {
     font-size: 25px;
-    margin: 5px auto;
-    left: 59px;
   }
 }
 
@@ -1561,11 +1562,6 @@ svg {
     width: 170px;
     height: 70px;
   }
-
-  .button span {
-    margin: 0px auto;
-    left: 34px;
-  }
 }
 
 @media all and (max-width: 680px) {
@@ -1604,8 +1600,6 @@ svg {
 
   .button span {
     font-size: 20px;
-    margin: -5px auto;
-    left: 30px;
   }
 
   .moon {
@@ -1621,8 +1615,6 @@ svg {
 
   .button span {
     font-size: 18px;
-    margin: -5px auto;
-    left: 24px;
   }
 
   .caption {

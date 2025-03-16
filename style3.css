@@ -1,7 +1,3 @@
-#projet_button {
-  left: 42px;
-}
-
 #projets {
   font-family: "Montserrat", sans-serif;
   text-transform: uppercase;
@@ -113,12 +109,6 @@
   opacity: 1;
 }
 
-@media screen and (max-width: 1380px) {
-  #projet_button {
-    left: 52px;
-  }
-}
-
 @media screen and (max-width: 1180px) {
   .projet_container {
     display: flex;
@@ -137,12 +127,6 @@
     background: none;
     color: white;
     font-size: 80px;
-  }
-}
-
-@media screen and (max-width: 768px) {
-  #projet_button {
-    left: 28px;
   }
 }
 
@@ -179,18 +163,12 @@
   }
 }
 @media screen and (max-width: 480px) {
-  #projet_button {
-    left: 23px;
-  }
   #projets {
     font-size: 50px;
   }
 }
 
 @media screen and (max-width: 360px) {
-  #projet_button {
-    left: 18px;
-  }
   #projets {
     font-size: 40px;
   }

@@ -85,10 +85,6 @@ canvas {
   margin: 80px -75px auto -75px;
 }
 
-.hero .container span {
-  left: 32px;
-}
-
 /* terre */
 /* #page_two {
   display: block;
@@ -405,7 +401,6 @@ canvas {
 .ag-timeline-card_title {
   display: none;
   margin: 10px 0 0;
-
   font-family: "ESL Legend", sans-serif;
   font-weight: bold;
   font-size: 28px;
@@ -552,10 +547,6 @@ canvas {
   .hero-text p {
     font-size: 25px;
   }
-
-  .hero .container span {
-    left: 41px;
-  }
 }
 
 @media only screen and (max-width: 1280px) {
@@ -678,9 +669,6 @@ canvas {
 }
 
 @media only screen and (max-width: 768px) {
-  .hero .container span {
-    left: 18px;
-  }
   .hero .container .button {
     left: 20px;
   }
@@ -782,9 +770,6 @@ canvas {
 @media only screen and (max-width: 380px) {
   .hero .container .button {
     left: 40px;
-  }
-  .hero .container span {
-    left: 13px;
   }
   .hero h1 {
     font-size: 1.3em;

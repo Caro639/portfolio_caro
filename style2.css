@@ -1,6 +1,5 @@
-canvas {
-  position: absolute;
-  width: -webkit-fill-available;
+.galaxie2 {
+  position: fixed;
 }
 
 /* button return up */
@@ -24,8 +23,6 @@ canvas {
   z-index: 2;
   width: 70px;
   aspect-ratio: 1;
-  /* background: #3a2b58;
-  border-radius: 10px; */
   font-size: 0;
 }
 .top:before {
@@ -738,8 +735,11 @@ canvas {
 }
 
 @media only screen and (max-width: 480px) {
-  canvas {
-    visibility: hidden;
+  .terra {
+    width: 45%;
+  }
+  .hero {
+    margin-left: 7%;
   }
   .hero h1 {
     font-size: 1.5em;
@@ -753,6 +753,7 @@ canvas {
 
   .ag-timeline_title {
     font-size: 40px;
+    margin-left: 7%;
   }
   .ag-timeline-card_point {
     font-size: 18px;
@@ -763,6 +764,7 @@ canvas {
   }
   .wrapper p {
     font-size: 3.5em;
+    margin-left: 7%;
   }
   .ag-format-container {
     margin-left: 50px;

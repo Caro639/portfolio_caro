@@ -258,6 +258,9 @@ svg {
 .sml,
 .button span {
   position: absolute;
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
 
 .container {
@@ -381,7 +384,7 @@ svg {
   font-family: "ESL Legend", sans-serif;
   /* font-family: "Sacramento", cursive; */
   font-size: 35px;
-  left: 51px;
+  /* left: 51px; */
   line-height: 70px;
   margin: 15px auto;
   transition: all 1px ease-in-out;
@@ -1488,16 +1491,8 @@ svg {
 
   .button span {
     font-size: 25px;
-    margin: 5px auto;
-    left: 57px;
   }
 }
-
-/* @media all and (max-width: 1280px) {
-  h1 {
-    font-size: 2.3em;
-  }
-} */
 
 @media all and (max-width: 1180px) {
   .earth {
@@ -1547,11 +1542,6 @@ svg {
     width: 170px;
     height: 70px;
   }
-
-  .button span {
-    margin: 0px auto;
-    left: 32px;
-  }
 }
 
 @media all and (max-width: 680px) {
@@ -1590,8 +1580,6 @@ svg {
 
   .button span {
     font-size: 20px;
-    margin: -5px auto;
-    left: 30px;
   }
 
   .moon {
@@ -1607,8 +1595,6 @@ svg {
 
   .button span {
     font-size: 18px;
-    margin: -5px auto;
-    left: 24px;
   }
 
   .caption {

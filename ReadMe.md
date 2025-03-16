@@ -8,7 +8,6 @@
 - **style.css** : Feuille de style principale.
 - **style2.css** : Feuille de style pour la deuxième page.
 - **style3.css** : Feuille de style pour la troisième page.
-- **script.js** : Canvas animation Bibliothèque JQuery.
 - **script2.js** : Timeline animation Bibliothèque JQuery.
 - **script3.js** : Animation confetti Bibliothèque JQuery.
 

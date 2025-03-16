@@ -728,8 +728,17 @@
 }
 
 @media only screen and (max-width: 480px) {
+  #stars {
+    animation: none;
+  }
+  #stars2 {
+    animation: none;
+  }
+  #stars3 {
+    animation: none;
+  }
   .terra {
-    width: 45%;
+    width: 43%;
   }
   .hero {
     margin-left: 7%;

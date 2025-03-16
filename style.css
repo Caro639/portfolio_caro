@@ -378,10 +378,10 @@ svg {
 .button span {
   text-align: center;
   font-weight: bold;
-  font-family: "Montserrat", sans-serif;
+  font-family: "ESL Legend", sans-serif;
   /* font-family: "Sacramento", cursive; */
   font-size: 35px;
-  left: 53px;
+  left: 51px;
   line-height: 70px;
   margin: 15px auto;
   transition: all 1px ease-in-out;
@@ -1489,7 +1489,7 @@ svg {
   .button span {
     font-size: 25px;
     margin: 5px auto;
-    left: 56px;
+    left: 57px;
   }
 }
 
@@ -1550,7 +1550,7 @@ svg {
 
   .button span {
     margin: 0px auto;
-    left: 31px;
+    left: 32px;
   }
 }
 
@@ -1591,7 +1591,7 @@ svg {
   .button span {
     font-size: 20px;
     margin: -5px auto;
-    left: 27px;
+    left: 28px;
   }
 
   .moon {
@@ -1608,7 +1608,7 @@ svg {
   .button span {
     font-size: 18px;
     margin: -5px auto;
-    left: 21px;
+    left: 22px;
   }
 
   .caption {

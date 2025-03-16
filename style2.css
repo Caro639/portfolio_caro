@@ -551,7 +551,7 @@ canvas {
   }
 
   .hero .container span {
-    left: 36px;
+    left: 38px;
   }
 }
 
@@ -676,7 +676,7 @@ canvas {
 
 @media only screen and (max-width: 768px) {
   .hero .container span {
-    left: 12px;
+    left: 14px;
   }
   .hero .container .button {
     left: 20px;
@@ -781,7 +781,7 @@ canvas {
     left: 40px;
   }
   .hero .container span {
-    left: 7px;
+    left: 9px;
   }
   .hero h1 {
     font-size: 1.3em;

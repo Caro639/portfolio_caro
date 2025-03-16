@@ -11,6 +11,7 @@
   flex-direction: row;
   justify-content: flex-end;
   position: sticky;
+  margin: 0 auto 110px auto;
 }
 .top {
   --offset: -5000px;

@@ -19,7 +19,7 @@
 }
 
 #page3 {
-  overflow-x: hidden;
+  /* overflow-x: hidden; */
   scroll-behavior: smooth;
 }
 #page_three {
@@ -163,8 +163,12 @@
   }
 }
 @media screen and (max-width: 480px) {
+  #page_three {
+    width: 45%;
+  }
   #projets {
     font-size: 50px;
+    margin-left: 7%;
   }
 }
 

@@ -1399,7 +1399,7 @@ svg {
     626px 1179px #fff, 846px 529px #fff,
     533px 1755px #fff, 1824px 808px #fff,
     1250px 997px #fff, 880px 342px #fff;
-  animation: animStar 150 linear infinite;
+  animation: animStar 150s linear infinite;
 }
 
 #stars3:after {
@@ -1601,7 +1601,12 @@ svg {
   .button span {
     font-size: 20px;
   }
-
+  .button:hover .moon {
+    left: 148px;
+  }
+  .globe {
+    left: -45px;
+  }
   .moon {
     width: 55px;
     height: 55px;
@@ -1610,11 +1615,11 @@ svg {
 
 @media all and (max-width: 380px) {
   .button {
-    width: 120px;
+    width: 100px;
   }
 
   .button span {
-    font-size: 18px;
+    font-size: 16px;
   }
 
   .caption {

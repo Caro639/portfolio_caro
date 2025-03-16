@@ -1,6 +1,20 @@
-canvas {
+/* canvas {
   position: absolute;
   width: -webkit-fill-available;
+} */
+/* body {
+  background: radial-gradient(
+      ellipse at bottom,
+      #1b2735 0%,
+      #090a0f 100%
+    )
+    repeat;
+  margin: 0 auto;
+} */
+
+/* tyest galaxie height auto */
+.galaxie2 {
+  position: fixed;
 }
 
 /* button return up */
@@ -38,7 +52,7 @@ canvas {
 }
 /* body id page */
 #page2 {
-  overflow-x: hidden;
+  /* overflow-x: hidden; */
   scroll-behavior: smooth;
 }
 /* accueil */
@@ -740,6 +754,12 @@ canvas {
 }
 
 @media only screen and (max-width: 480px) {
+  #page_two {
+    width: 45%;
+  }
+  .hero {
+    margin-left: 7%;
+  }
   .hero h1 {
     font-size: 1.5em;
   }
@@ -752,6 +772,7 @@ canvas {
 
   .ag-timeline_title {
     font-size: 40px;
+    margin-left: 7%;
   }
   .ag-timeline-card_point {
     font-size: 18px;
@@ -762,6 +783,7 @@ canvas {
   }
   .wrapper p {
     font-size: 3.5em;
+    margin-left: 7%;
   }
   .ag-format-container {
     margin-left: 50px;

@@ -739,7 +739,7 @@
     animation: none;
   }
   .terra {
-    width: 43%;
+    width: 35%;
   }
   .hero {
     margin-left: 7%;
@@ -776,6 +776,17 @@
   }
   .hero-text p {
     font-size: 14px;
+  }
+}
+@media only screen and (max-width: 355px) {
+  .terra {
+    width: 23%;
+  }
+  .hero h1 {
+    font-size: 1.1em;
+  }
+  .hero-text p {
+    font-size: 12px;
   }
 }
 

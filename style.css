@@ -1615,8 +1615,19 @@ svg {
   }
 }
 
-@media all and (max-width: 350px) {
+@media only screen and (max-width: 350px) {
   .presentation {
-    margin-left: 65px;
+    margin-left: 60px;
+  }
+  .earth {
+    width: 60%;
+    right: -40%;
+  }
+  .container {
+    margin: 30px 25px;
+  }
+  .caption {
+    font-size: 14px;
+    line-height: 139px;
   }
 }

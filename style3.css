@@ -1,17 +1,13 @@
 #projets {
-  font-family: "Montserrat", sans-serif;
+  font-family: "ESL Legend", sans-serif;
   text-transform: uppercase;
   text-align: center;
-  color: transparent;
   margin-bottom: 40px;
-  background-image: url(./image/planete.webp);
-  background-repeat: no-repeat;
-  background-position: 50% 32%;
-  background-size: cover;
   background-clip: text;
-  -webkit-background-clip: text;
-  font-size: 130px;
+  font-size: 150px;
   margin-top: 200px;
+  color: #ad45c6;
+  font-weight: normal;
 }
 
 #wrapper_projet {
@@ -119,8 +115,6 @@
 
 @media screen and (max-width: 880px) {
   #projets {
-    background: none;
-    color: white;
     font-size: 80px;
   }
 }

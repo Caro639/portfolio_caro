@@ -167,13 +167,8 @@
 }
 .ag-timeline_title {
   font-family: "ESL Legend", sans-serif;
-  background-image: url(./image/planete.webp);
-  background-repeat: no-repeat;
-  background-position: 50% 30%;
-  background-size: cover;
-  -webkit-background-clip: text;
   background-clip: text;
-  color: transparent;
+  color: #ad45c6;
   font-size: 150px;
 }
 
@@ -679,8 +674,6 @@
   }
 
   .ag-timeline_title {
-    background: none;
-    color: white;
     font-size: 100px;
   }
 }

@@ -59,7 +59,7 @@
   position: relative;
   width: 55vw;
   font-size: 30px;
-  text-align: justify;
+  text-align: left;
   color: transparent;
   margin: auto;
   line-height: 1.5;
@@ -403,7 +403,6 @@
   font-size: 1em;
   letter-spacing: 1px;
   color: #fff;
-  text-align: justify;
 }
 
 @-webkit-keyframes card-animation-left {
@@ -768,7 +767,7 @@
     font-size: 1.3em;
   }
   .hero-text p {
-    font-size: 14px;
+    font-size: 14.5px;
   }
 }
 @media only screen and (max-width: 355px) {
